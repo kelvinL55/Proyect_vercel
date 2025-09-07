@@ -176,7 +176,7 @@ export default function AIChatPage() {
                   </PromptInputTools>
                   <PromptInputSubmit
                     disabled={!input.trim() || isLoading}
-                    status={isLoading ? 'submitted' : 'awaiting_message'}
+                    status={isLoading ? 'submitted' : undefined}
                   >
                     <Send className="w-4 h-4" />
                   </PromptInputSubmit>
